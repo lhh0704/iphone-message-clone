@@ -8,8 +8,8 @@
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
-<body>
-  <div class="status-bar">
+<body class="home">
+  <div class="status-bar" style="color: white;">
     <div class="status-bar__column">
       <span> 10:36</span>
       <i class="fa-solid fa-location-arrow"></i>
@@ -21,164 +21,42 @@
     </div>
   </div>
 
-  <section class="second-bar">
-    <div class="second-bar__column">
-        <a href="home.html">
-        <i class="fa-solid fa-chevron-left" style="color:#D9D9D9;"></i>
+ <section class="app">
+     <div class="app-html">
+         <div class="app-html__img">
+            <img src="img/html.png">
+        </div>
+         <span>HTML</span>
+     </div>
+     <div class="app-css">
+        <div class="app-css__img">
+         <img src="img/css.png">
+         </div>
+        <span>CSS</span>
+     </div>
+ </section>
+
+ <nav class="home-nav">
+     <div class="home-nav__bak">
+        <div class="home-nav__phone">
+            <i class="fa-solid fa-phone"></i>
+        </div>
+        <a href="index.html">
+        <div class="home-nav__msg">
+            <i class="fa-solid fa-comment"></i>
+            <div class="home-nav__msg-new">
+                <span>6</span>
+            </div>
+        </div>
         </a>
-      <span class="second-bar__column-text">편집</span>
-    </div>
-    <div class="second-bar__column">
-      <img src="img/write.png" class="second-bar__column-icon">
-    </div>
-  </section>
-
-  <header class="screen-header" style="margin: 0px;">
-    <!-- <div class="screen-header-first">
-    <i class="fa-solid fa-chevron-left"></i> -->
-    <h1 class="screen-header__title" style="margin: 0px;">메세지</h1>
-    <!-- </div> -->
-    <form class="screen-header__search">
-      <input type="text"placeholder="검색">
-<!--        <i class="fa-solid fa-magnifying-glass"></i> -->
-    </form>
-  </header>
-  <a href="people1.html">
-    <main class="friends-screen">
-      <div class="friends-screen__list">
-        <div class="friends-screen__list-new">
-        <div class="friends-screen__list-new-circle"></div>
+        <div class="home-nav__kakao">
+            <i class="fa-solid fa-comment"></i>
         </div>
-          <img src="img/people.png" class="friends-screen__list-img">
-        <div class="friends-screen__list-coulm">
-          <div class="friends-screen__list-coulm-top">
-            <h3 class="friends-screen__list-coulm-number">JUN</h3>
-            <div class="friends-screen__list-coulm-time">
-              <span>17:56</span>
-              <i class="fa-solid fa-angle-right"></i>
-            </div>
-          </div>
-            <div class="friends-screen__list-coulm-text">
-              <p class="friends-screen__list-coulm-text-1">[Discord 발신]</p>
-              <p class="friends-screen__list-coulm-text-2">오늘의 발표자 입니다!</p>
-          </div>
-      </div>
-    </main>
-   </a>
- <a href="people2.html">
-  <main class="friends-screen__sub">
-    <div class="friends-screen__list">
-      <div class="friends-screen__list-new">
-      <div class="friends-screen__list-new-circle"></div>
-      </div>
-        <img src="img/people.png" class="friends-screen__list-img">
-      <div class="friends-screen__list-coulm" style="border-top: none;">
-        <div class="friends-screen__list-coulm-top">
-          <h3 class="friends-screen__list-coulm-number">힝구</h3>
-          <div class="friends-screen__list-coulm-time">
-            <span>16:03</span>
-            <i class="fa-solid fa-angle-right"></i>
-          </div>
-        </div>
-          <div class="friends-screen__list-coulm-text">
-            <p class="friends-screen__list-coulm-text-1">[Discord 발신]</p>
-            <p class="friends-screen__list-coulm-text-2">예습 복습을 했기에 이번엔 스스로 코드를 작성해···</p>
+        <div class="home-nav__ex">
+            <i class="fa-solid fa-compass"></i>
         </div>
     </div>
-  </main>
- </a>
-
- <a href="people3.html">
-    <main class="friends-screen__sub">
-      <div class="friends-screen__list">
-        <div class="friends-screen__list-new">
-        <div class="friends-screen__list-new-circle"></div>
-        </div>
-          <img src="img/people.png" class="friends-screen__list-img">
-        <div class="friends-screen__list-coulm" style="border-top: none;">
-          <div class="friends-screen__list-coulm-top">
-            <h3 class="friends-screen__list-coulm-number">재원</h3>
-            <div class="friends-screen__list-coulm-time">
-              <span>13:28</span>
-              <i class="fa-solid fa-angle-right"></i>
-            </div>
-          </div>
-            <div class="friends-screen__list-coulm-text">
-              <p class="friends-screen__list-coulm-text-1">[Discord 발신]</p>
-              <p class="friends-screen__list-coulm-text-2"> 예습을 해보려 했는데 오히려 조금씩 밀리다가 마지막에···</p>
-          </div>
-      </div>
-    </main>
-   </a>
-
-   <a href="people4.html">
-    <main class="friends-screen__sub">
-      <div class="friends-screen__list">
-        <div class="friends-screen__list-new">
-        <div class="friends-screen__list-new-circle"></div>
-        </div>
-          <img src="img/people.png" class="friends-screen__list-img">
-        <div class="friends-screen__list-coulm" style="border-top: none;">
-          <div class="friends-screen__list-coulm-top">
-            <h3 class="friends-screen__list-coulm-number">sungsoo</h3>
-            <div class="friends-screen__list-coulm-time">
-              <span>10:12</span>
-              <i class="fa-solid fa-angle-right"></i>
-            </div>
-          </div>
-            <div class="friends-screen__list-coulm-text">
-              <p class="friends-screen__list-coulm-text-1">[Discord 발신]</p>
-              <p class="friends-screen__list-coulm-text-2"> HTML, CSS 모두 처음이라 강의를 듣고···</p>
-          </div>
-      </div>
-    </main>
-   </a>
-
-   <a href="people5.html">
-    <main class="friends-screen__sub">
-      <div class="friends-screen__list">
-        <div class="friends-screen__list-new">
-        <div class="friends-screen__list-new-circle"></div>
-        </div>
-          <img src="img/people.png" class="friends-screen__list-img">
-        <div class="friends-screen__list-coulm" style="border-top: none;">
-          <div class="friends-screen__list-coulm-top">
-            <h3 class="friends-screen__list-coulm-number">투비</h3>
-            <div class="friends-screen__list-coulm-time">
-              <span>08:06</span>
-              <i class="fa-solid fa-angle-right"></i>
-            </div>
-          </div>
-            <div class="friends-screen__list-coulm-text">
-              <p class="friends-screen__list-coulm-text-1">[Discord 발신]</p>
-              <p class="friends-screen__list-coulm-text-2"> 예습을 하지 못해서 매번 과제마다 따라가기 급급했던···</p>
-          </div>
-      </div>
-    </main>
-   </a>
-
-   <a href="people6.html">
-    <main class="friends-screen__sub">
-      <div class="friends-screen__list">
-        <div class="friends-screen__list-new">
-        <div class="friends-screen__list-new-circle"></div>
-        </div>
-          <img src="img/people.png" class="friends-screen__list-img">
-        <div class="friends-screen__list-coulm" style="border-top: none;">
-          <div class="friends-screen__list-coulm-top">
-            <h3 class="friends-screen__list-coulm-number">왜버그없조</h3>
-            <div class="friends-screen__list-coulm-time">
-              <span>07:47</span>
-              <i class="fa-solid fa-angle-right"></i>
-            </div>
-          </div>
-            <div class="friends-screen__list-coulm-text">
-              <p class="friends-screen__list-coulm-text-1">[Discord 발신]</p>
-              <p class="friends-screen__list-coulm-text-2"> 왜버그없조의 코코아클론 후기 모아보기!</p>
-          </div>
-      </div>
-    </main>
-   </a>
+ </nav>
 
   <script src="https://kit.fontawesome.com/091c5d1ad4.js" crossorigin="anonymous"></script>
 </body>
