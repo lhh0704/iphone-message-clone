@@ -1,0 +1,102 @@
+.home{
+    background-image:url('img/back.png') ;
+    background-size: cover;
+    position: relative;
+    
+}
+.app{
+    display: flex;
+    padding: 35px 25px;
+}
+.app-html img,
+.app-css img{
+    width: 40px;
+    height: 45px;
+}
+
+.app-html__img,
+.app-css__img{
+    width: 55px;
+    height: 55px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app-html,
+.app-css{
+    margin-right: 35px;
+    text-align: center;
+}
+
+.app-html span,
+.app-css span{
+    display: block;
+    margin-top: 8px;
+    color: white;
+    font-size: 14px;
+}
+.home-nav{
+    position: fixed;
+    bottom: 20px;
+    right: 8px;
+    display: flex;
+    width: 95%;
+    height: 88px;
+    background-color: #F5F5F5;
+     background-color: rgba(252, 252, 252, 0.4);
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.home-nav__bak{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+.home-nav__phone,
+.home-nav__msg,
+.home-nav__kakao,
+.home-nav__ex{
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: aqua;
+    font-size: 35px;
+}
+
+.home-nav__phone,
+.home-nav__msg{
+    background-color: #53F06D;
+    color: white;
+}
+
+.home-nav__kakao{
+    background-color: #F9E200;
+    color: #3B1D1E;
+}
+
+.home-nav__ex{
+    background-color: white;
+    color: #1DB7FA;
+}
+
+.home-nav__msg span{
+    position: absolute;
+    top: 10px;
+    width: 25px;
+    height: 22px;
+    font-size: 18px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #FE3A30;
+
+
+}
